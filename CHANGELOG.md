@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 - module example that uses external certificate for authentication(when `var.create_client_certificate` or `var.create_server_certificate` == false)
 - fix: CKV_TF_1 in vpc
+- fix: resolve deprecation for aws_region data source
 
 ## [1.0.2] - 2023-12-04
 - added connection authorization lambda to complete example
